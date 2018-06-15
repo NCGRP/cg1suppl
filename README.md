@@ -7,7 +7,8 @@ regarding use of the applications, scripts, pipelines, and routines contained he
 The archive contains the following resources:
 
 "README Final Analysis 2.rev expt 2 with hclust.txt"
-	Complete, annotated, analytical pipelines for Populus, Sorghum, and Arabidopsis.
+Complete, annotated, analytical pipelines for Populus, Sorghum, and Arabidopsis.
+
 "README Postprocessing expt2.txt"
 	Example of genotype coding, i.e. conversion of SNPs to haplotype blocks.
 	Identification of discrepancy between results from two different HPCs related to OS-dependent random number generation.
