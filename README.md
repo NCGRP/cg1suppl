@@ -1,34 +1,6 @@
 The files in this archive contain notes and an annotated pipeline for analysis of data sets
 used in the publication.  The purpose of the archive is to fully document analytical
 procedures so that the methods might be replicated in different processing environments
-after necessary modifications are made. Please contact the authors with specific questions
-regarding use of the applications, scripts, pipelines, and routines contained herein.
-
-The archive contains the following resources:
-
-"README Final Analysis 2.rev expt 2 with hclust.txt"
-Complete, annotated, analytical pipelines for Populus, Sorghum, and Arabidopsis.
-
-"README Postprocessing expt2.txt"
-	Example of genotype coding, i.e. conversion of SNPs to haplotype blocks.
-	Identification of discrepancy between results from two different HPCs related to OS-dependent random number generation.
-	Comparison of quantization methods, Rcut, Rcut2, Kmeans, Hclust.
-	R code used to quantize continuous geographic and environmental data using Kmeans and Hclust.
-PopLocusWeightsHeatmap.r
-	R code to plot frequency of non-genic (NG), non-synonymous (NS), and synonymous (SS) substitutions in each haplotype block. Populus only, others similar.
-"2. Convert haplotypista to M+.scpt"
-	Applescript that converts haplotypista output to M+ input format.
-"5b. Calc generalized variance for env data.scpt"
-	Applescript that calls R code (above) to quantize geographic and environmental data.
-"7. Add target data to M+.scpt"
-	Applescript to add quantized data to M+ input files.
-"8d. Manage M+ runs on clusterPopMOD.sh"
-	Bash script used to parallelize M+ analyses on multi-core compute nodes, and perform initial processing of results. Populus only, others similar.
-PopGenomicGeography.r
-	R code to used to generate plots like Figure 2. Populus only, others similar.
-PopHaplotypistaIn.tar.gz
-	Starting data set for Populus.
-SorghumHaplotypistaInputMOD2.tar.gz
-	Starting data set for Sorghum.
-AtSNP4aaMOD2.tar.gz
-	Starting data set for Arabidopsis.
+after necessary modifications are made. The file Index.txt contains descriptions of the
+resources contained in the archive. Please contact the authors with specific questions
+regarding use of the applications, scripts, pipelines, and routines.
